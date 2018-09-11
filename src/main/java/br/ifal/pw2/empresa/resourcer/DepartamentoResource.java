@@ -38,10 +38,10 @@ public class DepartamentoResource{
 		return departamentoRepository.save(departamento);
 	}
 	
-	@PutMapping
+	/*@PostMapping
 	public Departamento update(@RequestBody Departamento departamento) {
 		return departamentoRepository.save(departamento);
-	}
+	}**/
 	
 	@DeleteMapping("{id}")
 	public void delete(@PathVariable("id") Integer id) {

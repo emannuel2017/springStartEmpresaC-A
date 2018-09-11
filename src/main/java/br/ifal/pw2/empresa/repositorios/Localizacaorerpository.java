@@ -3,8 +3,9 @@ package br.ifal.pw2.empresa.repositorios;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.ifal.pw2.empresa.model.Departamento;
+import br.ifal.pw2.empresa.model.Localizacao;
+
 @Repository
-public interface DepartamentoRepository extends JpaRepository<Departamento, Integer>{
+public interface Localizacaorerpository extends JpaRepository<Localizacao, Integer>{
 
 }
